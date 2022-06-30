@@ -1,0 +1,15 @@
+Dodatni zahtjevi koji su implementirani u sklopu projekta B su:
+- Podrška za različite tipove korisničkih naloga
+
+  U aplikaciji postoje dva tipa korisničkih naloga: doktor i laborant.
+  	Podaci za prijavu na sistem:
+  	- Za doktora: korisničko ime: doktor1, lozinka: doktor1
+		      korisničko ime: doktor2, lozinka: doktor2
+        - Za laboranta: korisničko ime: laborant1, lozinka: laborant1
+		        korisničko ime: laborant2, lozinka: laborant2
+
+- Internacionalizacija
+  Internacionalizacija je podržana na nivou formi, na srpskom i engleskom jeziku. 
+  Podrazumijevani jezik je srpski.
+- Korisničko uputstvo
+- Instalacija i uputstvo za instalaciju
