@@ -1,0 +1,1089 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvBloodParameters.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <metadata name="columnName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="columnName.HeaderText" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="columnName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="columnName.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <metadata name="Unit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Unit.HeaderText" xml:space="preserve">
+    <value>Mj. jedinica</value>
+  </data>
+  <data name="Unit.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Unit.Width" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <metadata name="columnRefValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="columnRefValue.HeaderText" xml:space="preserve">
+    <value>Ref. vrijednost</value>
+  </data>
+  <data name="columnRefValue.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="contextMenuStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="EditToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 28</value>
+  </data>
+  <data name="EditToolStripMenuItem.Text" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="DeleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 28</value>
+  </data>
+  <data name="DeleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Obriši</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 60</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvBloodParameters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 26</value>
+  </data>
+  <data name="dgvBloodParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>631, 277</value>
+  </data>
+  <data name="dgvBloodParameters.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;dgvBloodParameters.Name" xml:space="preserve">
+    <value>dgvBloodParameters</value>
+  </data>
+  <data name="&gt;&gt;dgvBloodParameters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvBloodParameters.Parent" xml:space="preserve">
+    <value>gbBloodParameters</value>
+  </data>
+  <data name="&gt;&gt;dgvBloodParameters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbBloodParameters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbBloodParameters.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="gbBloodParameters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 61</value>
+  </data>
+  <data name="gbBloodParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 322</value>
+  </data>
+  <data name="gbBloodParameters.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="gbBloodParameters.Text" xml:space="preserve">
+    <value>Krvni parametri</value>
+  </data>
+  <data name="&gt;&gt;gbBloodParameters.Name" xml:space="preserve">
+    <value>gbBloodParameters</value>
+  </data>
+  <data name="&gt;&gt;gbBloodParameters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbBloodParameters.Parent" xml:space="preserve">
+    <value>tpBloodParameters</value>
+  </data>
+  <data name="&gt;&gt;gbBloodParameters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblSearch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 6</value>
+  </data>
+  <data name="lblSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="lblSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblSearch.Text" xml:space="preserve">
+    <value>Traži:</value>
+  </data>
+  <data name="&gt;&gt;lblSearch.Name" xml:space="preserve">
+    <value>lblSearch</value>
+  </data>
+  <data name="&gt;&gt;lblSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSearch.Parent" xml:space="preserve">
+    <value>pnlFilter</value>
+  </data>
+  <data name="&gt;&gt;lblSearch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="tbFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 29</value>
+  </data>
+  <data name="tbFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>631, 27</value>
+  </data>
+  <data name="tbFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Name" xml:space="preserve">
+    <value>tbFilter</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.Parent" xml:space="preserve">
+    <value>pnlFilter</value>
+  </data>
+  <data name="&gt;&gt;tbFilter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 61</value>
+  </data>
+  <data name="pnlFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;pnlFilter.Name" xml:space="preserve">
+    <value>pnlFilter</value>
+  </data>
+  <data name="&gt;&gt;pnlFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlFilter.Parent" xml:space="preserve">
+    <value>tpBloodParameters</value>
+  </data>
+  <data name="&gt;&gt;pnlFilter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 111</value>
+  </data>
+  <data name="lblUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 20</value>
+  </data>
+  <data name="lblUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="lblUnit.Text" xml:space="preserve">
+    <value>Mjerna jedinica:</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Name" xml:space="preserve">
+    <value>lblUnit</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Parent" xml:space="preserve">
+    <value>pnlAddOrEdit</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 180</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>pnlAddOrEdit</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 180</value>
+  </data>
+  <data name="btnSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 45</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Sačuvaj</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>pnlAddOrEdit</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbUnit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tbUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="tbUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 134</value>
+  </data>
+  <data name="tbUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 24</value>
+  </data>
+  <data name="tbUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbUnit.Name" xml:space="preserve">
+    <value>tbUnit</value>
+  </data>
+  <data name="&gt;&gt;tbUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbUnit.Parent" xml:space="preserve">
+    <value>pnlAddOrEdit</value>
+  </data>
+  <data name="&gt;&gt;tbUnit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbReferenceValues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="rbLessThan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbLessThan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 74</value>
+  </data>
+  <data name="rbLessThan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="rbLessThan.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rbLessThan.Text" xml:space="preserve">
+    <value>Manje</value>
+  </data>
+  <data name="&gt;&gt;rbLessThan.Name" xml:space="preserve">
+    <value>rbLessThan</value>
+  </data>
+  <data name="&gt;&gt;rbLessThan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbLessThan.Parent" xml:space="preserve">
+    <value>gbReferenceValues</value>
+  </data>
+  <data name="&gt;&gt;rbLessThan.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 131</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>gbReferenceValues</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbLessThan.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tbLessThan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="tbLessThan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 74</value>
+  </data>
+  <data name="tbLessThan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 24</value>
+  </data>
+  <data name="tbLessThan.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbLessThan.Name" xml:space="preserve">
+    <value>tbLessThan</value>
+  </data>
+  <data name="&gt;&gt;tbLessThan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbLessThan.Parent" xml:space="preserve">
+    <value>gbReferenceValues</value>
+  </data>
+  <data name="&gt;&gt;tbLessThan.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbGreaterThan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbGreaterThan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 102</value>
+  </data>
+  <data name="rbGreaterThan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 24</value>
+  </data>
+  <data name="rbGreaterThan.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rbGreaterThan.Text" xml:space="preserve">
+    <value>Veće</value>
+  </data>
+  <data name="&gt;&gt;rbGreaterThan.Name" xml:space="preserve">
+    <value>rbGreaterThan</value>
+  </data>
+  <data name="&gt;&gt;rbGreaterThan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbGreaterThan.Parent" xml:space="preserve">
+    <value>gbReferenceValues</value>
+  </data>
+  <data name="&gt;&gt;rbGreaterThan.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbRange.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 129</value>
+  </data>
+  <data name="rbRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 24</value>
+  </data>
+  <data name="rbRange.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="rbRange.Text" xml:space="preserve">
+    <value>Opseg</value>
+  </data>
+  <data name="&gt;&gt;rbRange.Name" xml:space="preserve">
+    <value>rbRange</value>
+  </data>
+  <data name="&gt;&gt;rbRange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbRange.Parent" xml:space="preserve">
+    <value>gbReferenceValues</value>
+  </data>
+  <data name="&gt;&gt;rbRange.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbRangeValue1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tbRangeValue1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="tbRangeValue1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 129</value>
+  </data>
+  <data name="tbRangeValue1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 24</value>
+  </data>
+  <data name="tbRangeValue1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbRangeValue1.Name" xml:space="preserve">
+    <value>tbRangeValue1</value>
+  </data>
+  <data name="&gt;&gt;tbRangeValue1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbRangeValue1.Parent" xml:space="preserve">
+    <value>gbReferenceValues</value>
+  </data>
+  <data name="&gt;&gt;tbRangeValue1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbRangeValue2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tbRangeValue2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="tbRangeValue2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 129</value>
+  </data>
+  <data name="tbRangeValue2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 24</value>
+  </data>
+  <data name="tbRangeValue2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbRangeValue2.Name" xml:space="preserve">
+    <value>tbRangeValue2</value>
+  </data>
+  <data name="&gt;&gt;tbRangeValue2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbRangeValue2.Parent" xml:space="preserve">
+    <value>gbReferenceValues</value>
+  </data>
+  <data name="&gt;&gt;tbRangeValue2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbGreaterThan.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tbGreaterThan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="tbGreaterThan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 102</value>
+  </data>
+  <data name="tbGreaterThan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 24</value>
+  </data>
+  <data name="tbGreaterThan.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbGreaterThan.Name" xml:space="preserve">
+    <value>tbGreaterThan</value>
+  </data>
+  <data name="&gt;&gt;tbGreaterThan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbGreaterThan.Parent" xml:space="preserve">
+    <value>gbReferenceValues</value>
+  </data>
+  <data name="&gt;&gt;tbGreaterThan.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gbReferenceValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 3</value>
+  </data>
+  <data name="gbReferenceValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 170</value>
+  </data>
+  <data name="gbReferenceValues.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="gbReferenceValues.Text" xml:space="preserve">
+    <value>Referentna vrijednost</value>
+  </data>
+  <data name="&gt;&gt;gbReferenceValues.Name" xml:space="preserve">
+    <value>gbReferenceValues</value>
+  </data>
+  <data name="&gt;&gt;gbReferenceValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbReferenceValues.Parent" xml:space="preserve">
+    <value>pnlAddOrEdit</value>
+  </data>
+  <data name="&gt;&gt;gbReferenceValues.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 7</value>
+  </data>
+  <data name="btnAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 45</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Dodaj novi parametar</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>pnlAddOrEdit</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 56</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Naziv:</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>pnlAddOrEdit</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tbName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="tbName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 79</value>
+  </data>
+  <data name="tbName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 24</value>
+  </data>
+  <data name="tbName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbName.Name" xml:space="preserve">
+    <value>tbName</value>
+  </data>
+  <data name="&gt;&gt;tbName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbName.Parent" xml:space="preserve">
+    <value>pnlAddOrEdit</value>
+  </data>
+  <data name="&gt;&gt;tbName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pnlAddOrEdit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pnlAddOrEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 383</value>
+  </data>
+  <data name="pnlAddOrEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 234</value>
+  </data>
+  <data name="pnlAddOrEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;pnlAddOrEdit.Name" xml:space="preserve">
+    <value>pnlAddOrEdit</value>
+  </data>
+  <data name="&gt;&gt;pnlAddOrEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlAddOrEdit.Parent" xml:space="preserve">
+    <value>tpBloodParameters</value>
+  </data>
+  <data name="&gt;&gt;pnlAddOrEdit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tpBloodParameters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="tpBloodParameters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 617</value>
+  </data>
+  <data name="tpBloodParameters.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tpBloodParameters.Text" xml:space="preserve">
+    <value>Krvni parametri</value>
+  </data>
+  <data name="&gt;&gt;tpBloodParameters.Name" xml:space="preserve">
+    <value>tpBloodParameters</value>
+  </data>
+  <data name="&gt;&gt;tpBloodParameters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpBloodParameters.Parent" xml:space="preserve">
+    <value>tcCiphers</value>
+  </data>
+  <data name="&gt;&gt;tpBloodParameters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpViruses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="tpViruses.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpViruses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 617</value>
+  </data>
+  <data name="tpViruses.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpViruses.Text" xml:space="preserve">
+    <value>Virusi</value>
+  </data>
+  <data name="&gt;&gt;tpViruses.Name" xml:space="preserve">
+    <value>tpViruses</value>
+  </data>
+  <data name="&gt;&gt;tpViruses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpViruses.Parent" xml:space="preserve">
+    <value>tcCiphers</value>
+  </data>
+  <data name="&gt;&gt;tpViruses.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tpBloodTypes.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="dgvBloodType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <metadata name="BloodType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="BloodType.HeaderText" xml:space="preserve">
+    <value>Krvne grupe</value>
+  </data>
+  <data name="BloodType.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dgvBloodType.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvBloodType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 72</value>
+  </data>
+  <data name="dgvBloodType.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvBloodType.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="dgvBloodType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 135</value>
+  </data>
+  <data name="dgvBloodType.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;dgvBloodType.Name" xml:space="preserve">
+    <value>dgvBloodType</value>
+  </data>
+  <data name="&gt;&gt;dgvBloodType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvBloodType.Parent" xml:space="preserve">
+    <value>tpBloodTypes</value>
+  </data>
+  <data name="&gt;&gt;dgvBloodType.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpBloodTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="tpBloodTypes.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpBloodTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 617</value>
+  </data>
+  <data name="tpBloodTypes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpBloodTypes.Text" xml:space="preserve">
+    <value>Krvne grupe</value>
+  </data>
+  <data name="&gt;&gt;tpBloodTypes.Name" xml:space="preserve">
+    <value>tpBloodTypes</value>
+  </data>
+  <data name="&gt;&gt;tpBloodTypes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpBloodTypes.Parent" xml:space="preserve">
+    <value>tcCiphers</value>
+  </data>
+  <data name="&gt;&gt;tpBloodTypes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tpRHFactor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="dgvRHFactor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <metadata name="RHFactor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="RHFactor.HeaderText" xml:space="preserve">
+    <value>RH faktor</value>
+  </data>
+  <data name="RHFactor.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dgvRHFactor.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvRHFactor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 93</value>
+  </data>
+  <data name="dgvRHFactor.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvRHFactor.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="dgvRHFactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 83</value>
+  </data>
+  <data name="dgvRHFactor.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;dgvRHFactor.Name" xml:space="preserve">
+    <value>dgvRHFactor</value>
+  </data>
+  <data name="&gt;&gt;dgvRHFactor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvRHFactor.Parent" xml:space="preserve">
+    <value>tpRHFactor</value>
+  </data>
+  <data name="&gt;&gt;dgvRHFactor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tpRHFactor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="tpRHFactor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpRHFactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>902, 617</value>
+  </data>
+  <data name="tpRHFactor.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpRHFactor.Text" xml:space="preserve">
+    <value>RH faktor</value>
+  </data>
+  <data name="&gt;&gt;tpRHFactor.Name" xml:space="preserve">
+    <value>tpRHFactor</value>
+  </data>
+  <data name="&gt;&gt;tpRHFactor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpRHFactor.Parent" xml:space="preserve">
+    <value>tcCiphers</value>
+  </data>
+  <data name="&gt;&gt;tpRHFactor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tcCiphers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcCiphers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="tcCiphers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tcCiphers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>910, 650</value>
+  </data>
+  <data name="tcCiphers.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;tcCiphers.Name" xml:space="preserve">
+    <value>tcCiphers</value>
+  </data>
+  <data name="&gt;&gt;tcCiphers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcCiphers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tcCiphers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>910, 650</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CiphersForm</value>
+  </data>
+  <data name="&gt;&gt;columnName.Name" xml:space="preserve">
+    <value>columnName</value>
+  </data>
+  <data name="&gt;&gt;columnName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Unit.Name" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="&gt;&gt;Unit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnRefValue.Name" xml:space="preserve">
+    <value>columnRefValue</value>
+  </data>
+  <data name="&gt;&gt;columnRefValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditToolStripMenuItem.Name" xml:space="preserve">
+    <value>EditToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;EditToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeleteToolStripMenuItem.Name" xml:space="preserve">
+    <value>DeleteToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;DeleteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BloodType.Name" xml:space="preserve">
+    <value>BloodType</value>
+  </data>
+  <data name="&gt;&gt;BloodType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RHFactor.Name" xml:space="preserve">
+    <value>RHFactor</value>
+  </data>
+  <data name="&gt;&gt;RHFactor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BloodParametersForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

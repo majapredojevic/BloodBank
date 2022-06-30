@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9E4A0A2-CE85-4DB0-8D41-5BA80C8C49BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BloodBank</RootNamespace>
+    <AssemblyName>BloodBank</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.14.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.14.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.1.11\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.1.11.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.1.11\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.26.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.26\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.26\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Zstandard.Net, Version=1.1.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.26\lib\net452\Zstandard.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\DataAccess\DataFactory.cs" />
+    <Compile Include="Data\DataAccess\Exceptions\DataAccessExceptions.cs" />
+    <Compile Include="Data\DataAccess\IAccount.cs" />
+    <Compile Include="Data\DataAccess\IBloodBank.cs" />
+    <Compile Include="Data\DataAccess\IBloodDonation.cs" />
+    <Compile Include="Data\DataAccess\IBloodDonor.cs" />
+    <Compile Include="Data\DataAccess\IBloodParameter.cs" />
+    <Compile Include="Data\DataAccess\IBloodType.cs" />
+    <Compile Include="Data\DataAccess\IEmployee.cs" />
+    <Compile Include="Data\DataAccess\IOffice.cs" />
+    <Compile Include="Data\DataAccess\IReport.cs" />
+    <Compile Include="Data\DataAccess\IRHFactor.cs" />
+    <Compile Include="Data\DataAccess\IVirus.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLAccount.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLBloodBank.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLBloodDonor.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLBloodParameter.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLBloodType.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLBloodDonation.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLDataFactory.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLEmployee.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLOffice.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLReport.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLRHFactor.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLUtil.cs" />
+    <Compile Include="Data\DataAccess\MySQL\MySQLVirus.cs" />
+    <Compile Include="Data\Model\Account.cs" />
+    <Compile Include="Data\Model\Address.cs" />
+    <Compile Include="Data\Model\BloodBag.cs" />
+    <Compile Include="Data\Model\BloodBank.cs" />
+    <Compile Include="Data\Model\BloodDonation.cs" />
+    <Compile Include="Data\Model\BloodDonor.cs" />
+    <Compile Include="Data\Model\BloodParameter.cs" />
+    <Compile Include="Data\Model\BloodType.cs" />
+    <Compile Include="Data\Model\Employee.cs" />
+    <Compile Include="Data\Model\Report.cs" />
+    <Compile Include="Data\Model\ReportBloodParameter.cs" />
+    <Compile Include="Data\Model\ReportViruses.cs" />
+    <Compile Include="Data\Model\Office.cs" />
+    <Compile Include="Data\Model\Person.cs" />
+    <Compile Include="Data\Model\RHFactor.cs" />
+    <Compile Include="Data\Model\Virus.cs" />
+    <Compile Include="Forms\AnalysisReportsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnalysisReportsForm.Designer.cs">
+      <DependentUpon>AnalysisReportsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BloodBankInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BloodBankInfoForm.Designer.cs">
+      <DependentUpon>BloodBankInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BloodDonationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BloodDonationForm.Designer.cs">
+      <DependentUpon>BloodDonationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BloodDonorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BloodDonorsForm.Designer.cs">
+      <DependentUpon>BloodDonorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainWindowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainWindowForm.Designer.cs">
+      <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewReportForm.Designer.cs">
+      <DependentUpon>NewReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BloodParametersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BloodParametersForm.Designer.cs">
+      <DependentUpon>BloodParametersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Common.cs" />
+    <EmbeddedResource Include="Forms\AnalysisReportsForm.en.resx">
+      <DependentUpon>AnalysisReportsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AnalysisReportsForm.resx">
+      <DependentUpon>AnalysisReportsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BloodBankInfoForm.en.resx">
+      <DependentUpon>BloodBankInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BloodBankInfoForm.resx">
+      <DependentUpon>BloodBankInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BloodDonationForm.en.resx">
+      <DependentUpon>BloodDonationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BloodDonationForm.resx">
+      <DependentUpon>BloodDonationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BloodDonorsForm.en.resx">
+      <DependentUpon>BloodDonorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BloodDonorsForm.resx">
+      <DependentUpon>BloodDonorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BloodParametersForm.en.resx">
+      <DependentUpon>BloodParametersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.en.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginForm.sr.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainWindowForm.en.resx">
+      <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainWindowForm.resx">
+      <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainWindowForm.sr.resx">
+      <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewReportForm.en.resx">
+      <DependentUpon>NewReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewReportForm.resx">
+      <DependentUpon>NewReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BloodParametersForm.resx">
+      <DependentUpon>BloodParametersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resources\Strings.en.resx" />
+    <EmbeddedResource Include="Resources\Strings.sr.resx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+    <None Include="Resources\flag-of-united-kingdom-vector-logo.png" />
+    <None Include="Resources\flag-of-serbia-vector-logo1.png" />
+    <None Include="Resources\flag-of-serbia-vector-logo.png" />
+    <None Include="Resources\serbia.png" />
+    <None Include="Resources\serbia-2270793_640.png" />
+    <None Include="Resources\icon-delete-16.jpg" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\delete.jpg" />
+    <None Include="Resources\information-button.png" />
+    <None Include="Resources\scientific-doctor-analyzing-sample-blood-from-vacutainer.jpg" />
+    <None Include="Resources\userLogin.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\infoooo.png" />
+    <None Include="Resources\max.png" />
+    <None Include="Resources\background1.jpg" />
+    <None Include="Resources\background %282%29.jpg" />
+    <None Include="Resources\PinClipart.com_government-power-clipart_1821638.png" />
+    <None Include="Resources\min.png" />
+    <None Include="Resources\90-905672_x-cross-close-symbol-icon-button-gui-close.png" />
+    <None Include="Resources\background41.png" />
+    <None Include="Resources\background4.png" />
+    <None Include="Resources\passwordIcon.png" />
+    <None Include="Resources\userIcon.png" />
+    <None Include="Resources\Icon.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
